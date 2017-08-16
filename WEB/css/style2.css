@@ -1,0 +1,62 @@
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+#header {
+    height: 180px;
+    border: 1px solid blue;
+}
+#content {
+    width: 600px;
+    float: left;
+    border: 1px solid yellow;
+}
+#sidebar {
+    width: 300px;
+    float: right;
+    border: 1px solid green;
+}
+#footer {
+    clear: both;
+    border: 1px solid blue;
+}
+
+/* 980px hoặc nhỏ hơn */
+@media screen and (max-width: 980px) {
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 65%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+}
+
+/* 700px hoặc nhỏ hơn */
+@media screen and (max-width: 700px) {
+    #content {
+        width: auto;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+}
+
+/*  480px hoặc nhỏ hơn */
+@media screen and (max-width: 480px) {
+    #header {
+        height: auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #sidebar {
+        display: none;
+    }
+}

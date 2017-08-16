@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+}
+/* container */
+.container {
+	width: 100vw;
+	min-height: 100vh;
+	display: block;
+	background-image: url('../img/background.png');
+	background-position: center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.profile {
+	width: 250px;
+	height: 350px;
+	top:110px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: white;
+    box-shadow: 4px 4px 1px #888888;
+	position: relative;
+}
+.img img {
+	width: 200px;
+	height: 200px;
+	margin: 15px 26px;
+}
+.text {
+    font-size: 19px;
+    font-weight: bold;
+    color: #ff56aa;
+    text-align: center;
+    font-family: 'VNI-HLThuphap';
+}
+.list {
+	width: 240px;
+	height: 42px;
+    position: absolute;
+	left: -10%;
+}
+.list li {
+	list-style-type: none;
+	
+}
+.list li a {
+	display: block;
+	float: left;
+	padding-right: 18px;
+}

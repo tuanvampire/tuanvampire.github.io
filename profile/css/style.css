@@ -1,0 +1,48 @@
+@media print{
+	html, body {
+		display: none;
+	}
+}
+body {
+	width: 100%;
+	background: white;
+	line-height: 1.5;
+  	font-family: Georgia, 'Times New Roman', Times, serif;
+  	font: 15px;
+  	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	text-decoration: none;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:active {
+	color: blue;
+}
+ul {
+	list-style-type:none;
+}
+h1 {
+	margin-left: 50px;
+	width: 50%;
+    margin: auto;
+}
+div {
+	width: 50%;
+    margin: auto;
+}
+.title {
+	font-size: 20px;
+	font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.left, .right {
+    height: 400px;
+}
+.left{
+    background: blue;
+    float: left;
+    width: 70%;
+}
+.right{
+    background: red;
+    float: right;
+    width: 30%;
+}
+/*@media only screen and (max-width: 768px){
+    .left, .right{
+        float: none;
+        width: 100%;
+    }
+}*/
+.responsive_768{
+    width: 100%;
+    float: none
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+        <div id="display_begin">
+	    	<input type="text" id="input" name="inputDate" value="" onclick="calendar()" onchange="isUserInput(this)" placeholder="Click in !">
+	    	<div id="image"></div>
+	    	<p id="notification"></p>
+  	    </div>
+	  	<div id="calendar">
+		    <table id="day">
+		        <tr id="header">
+			        <th class="btn"><button class="previous" onclick="buttonClickMonth(-1)">&larr;</button></th>
+			        <th colspan="2">
+			                <select id="month" onchange="changeMonth()">
+				                <option value="1">January</option>
+				                <option value="2">February</option>
+				                <option value="3">March</option>
+				                <option value="4">April</option>
+				                <option value="5">May</option>
+				                <option value="6">June</option>
+				                <option value="7">July</option>
+				                <option value="8">August</option>
+				                <option value="9">September</option>
+				                <option value="10">October</option>
+				                <option value="11">November</option>
+				                <option value="12">December</option>
+			                </select>
+			        </th>
+			        <th class="btn"><button class="next" onclick="buttonClickMonth(1)">&rarr;</button></th>
+			        <th class="btn"><button class="previous" onclick="buttonClickYear(-1)">&lt;&lt;</button></th>
+		            <th colspan="1">
+		               <select id="year" onchange="changeYear()"></select>
+		            </th>
+			        <th class="btn"><button class="next" onclick="buttonClickYear(1)">&gt;&gt;</button></th>
+		        </tr>
+		        <tr id="title">
+			        <th>Su</th>
+		            <th>Mo</th>
+		            <th>Tu</th>
+		            <th>We</th>
+		            <th>Th</th>
+		            <th>Fr</th>
+		            <th>Sa</th>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		    </table>
+	        <div id="text"></div>
+	    </div> 
+    </div>
+	<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>
