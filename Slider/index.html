@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Thông tin - Thông báo</title>
+</head>
+<body>
+
+    <!-- container -->
+	<div class="container">
+		<p>THÔNG TIN - THÔNG BÁO</p>
+
+		    <!-- window -->
+			<div id="window">
+				<div class="slide">
+					<img class="img" src="img/0.jpg" alt="img0">
+				</div>
+				<div class="slide">
+					<img class="img" src="img/1.jpg" alt="img1">
+				</div>
+				<div class="slide">
+					<img class="img" src="img/2.jpg" alt="img2">
+				</div>
+				<div class="slide">
+					<img class="img" src="img/3.jpg" alt="img3">
+				</div>
+				<div class="slide">
+					<img class="img" src="img/4.jpg" alt="img4">
+				</div>
+				<div class="slide">
+					<img class="img" src="img/5.jpg" alt="img5">
+				</div>
+				<div>
+					<button class="button" id="previous" onclick="BtnClick(-1)">&lt;</button>
+					<button class="button" id="next" onclick="BtnClick(1)">&gt;</button>
+					<button class="buttons" id="pause" onclick="BtnnClick()">pause</button>
+				</div>
+			</div><!-- window -->
+
+			<!-- list -->
+				<div id="list">
+				<div>
+				    <p class="slide-mini" onclick="ClickImageMini(0)" onmouseover="mOver(1)" onmouseout="mOut()"></p>
+				</div>
+				<div>
+					<p class="slide-mini" onclick="ClickImageMini(1)" onmouseover="mOver(2)" onmouseout="mOut()"></p>
+				</div>
+				<div>
+					<p class="slide-mini" onclick="ClickImageMini(2)" onmouseover="mOver(3)" onmouseout="mOut()"></p>
+				</div>
+				<div>
+					<p class="slide-mini" onclick="ClickImageMini(3)" onmouseover="mOver(4)" onmouseout="mOut()"></p>
+				</div>
+				<div>
+					<p class="slide-mini" onclick="ClickImageMini(4)" onmouseover="mOver(5)" onmouseout="mOut()"></p>
+				</div>
+				<div>
+					<p class="slide-mini" onclick="ClickImageMini(5)" onmouseover="mOver(6)" onmouseout="mOut()"></p>
+				</div>
+			</div><!-- list -->
+		
+	</div><!-- container -->
+	<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>

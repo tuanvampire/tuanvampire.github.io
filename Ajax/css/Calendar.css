@@ -1,0 +1,81 @@
+/* calendar */
+label, legend {
+	font-weight: bold;
+	font-size: 15px;
+	color: #ff9800;
+}
+table {
+	width: 500px;
+	min-height: 300px;
+	border: 1px solid #aeb5fd;
+	margin: 0 auto;
+	display: table;
+}
+th {
+	height: 20px;
+	width: 100px;
+	padding: 5px;
+}
+select {
+	width: 90%;
+    height: 90%;
+    border: none;
+}
+option {
+	width: 100%;
+	height: 100px;
+}
+button {
+	width: 20px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+    border: none;
+    padding: 0;
+	background-color: #a9cce3;
+	cursor: pointer;
+}
+button:hover {
+	color: red;
+}
+button:active {
+	border: none;
+}
+td {
+	height: 50px;
+	width: 30px;
+	background: white;
+	text-align: center;
+	border: 1px solid #aeb5fd;
+}
+td:hover {
+	border: 1px solid red;
+}
+#calendar {
+	display: block;
+	margin-top: 20px;
+}
+#header th {
+	width: 30px;
+	height: 25px;	
+	border: 1px solid blue;
+	background-color: #a9cce3;
+
+}
+#month {
+	cursor: pointer;
+}
+#year {
+	cursor: pointer;
+}
+#day {
+	display: none;
+}
+#title {
+	color: red;
+	font-size: 20px;
+}
+#notification {
+	position: absolute;
+	top : 217px;
+}

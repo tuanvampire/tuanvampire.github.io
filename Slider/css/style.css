@@ -1,0 +1,114 @@
+body {
+	font-family: Arial;
+	font-size: 20px;
+	color: #777;
+}
+p {
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	width: 800px;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+/* css for image */
+
+#window {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin:0 auto;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#window img {
+	width: 800px;
+	height: 400px;
+	position: absolute;
+}
+#window button {
+	width: 40px;
+	height: 50px;
+	position: relative;
+	top: 170px;
+	background: #777;
+	color: #ffffff;
+	border: none;
+	border-radius: 8px;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.3;
+   
+}
+#window .buttons {
+	width: 85px;
+	height: 35px;
+	position: relative;
+	top: 350px;
+	left: 260px;
+	background: #777;
+	color: #ffffff;
+	border: none;
+	border-radius: 8px;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.3;
+   
+}
+#window:hover button {
+	opacity: 0.8;
+	background-color: #000000;
+}
+#previous {
+	left: 3%;
+}
+#next {
+	left: 86.5%;
+}
+.slide {
+    animation: change 1s;
+    overflow: hidden;
+}
+@keyframes change {
+	from {
+    	opacity: 0.1;
+    	border-radius: 8px;
+	}
+	to {
+		opacity: 1;
+		border-radius: 10px;
+	}
+}
+
+#list {
+	width: 800px;
+	margin: 10px auto;
+	padding-left: 75px;
+	overflow: hidden;
+	position: absolute;
+	top:405px;
+	left: 550px;
+}
+#list .slide-mini {
+	float: left;
+	width: 11px;
+	height: 11px;
+	margin-right: 10px;
+	border: 1px solid red;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: yellow;
+
+}
+#list  .slide-mini:hover {
+	opacity: 1;
+	width: 12px;
+	height: 12px;
+	border: 1px solid green;
+	background-color: red;
+}
