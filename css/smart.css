@@ -108,6 +108,10 @@
 	}
 	div.content_1 p {
 		line-height: 20px;
+                text-align:left;
+	}
+        div.content_tuanld p {
+                text-align:left;
 	}
 	div.box_1 p {
 	    height: 115px;
