@@ -1,6 +1,6 @@
-var SCORE = 100;// Score Begin
+﻿var SCORE = 100;// Score Begin
 var HEART = 3;// Turn Player
-var ARR_SPEED = [2, 4, 10];// array speed
+var ARR_SPEED = [2, 2, 2];// array speed
 var SPEED = ARR_SPEED[0];// speed of game
 var MONSTER_SIZE = 70;// size monter
 var LEVEL_GAME = 1;// level begin of game
@@ -93,14 +93,14 @@ monter9Image.src = "image/monster9.png";
  }
  /*==============Create Monter=================*/
 var monter1 = new monter(610 ,370, 710, 60, 600, 150, 710, 70, true, monter1Image);
-var monter2 = new monter(270 ,390, 710, 260, 600, 20, 710, 70, false, monter2Image);
-var monter3 = new monter(270 ,390, 710, 260, 600, 150, 710, 70, false, monter3Image);
-var monter4 = new monter(270 ,390, 710, 260, 600, 220, 710, 70, false, monter4Image);
-var monter5 = new monter(670 ,360, 710, 60, 500, 220, 710, 60, false, monter5Image);
-var monter6 = new monter(288 ,10, 710, 260, 600, 320, 710, 60, false, monter6Image);
-var monter7 = new monter(288 ,10, 710, 260, 600, 320, 710, 60, false, monter7Image);
-var monter8 = new monter(288 ,10, 710, 60, 600, 150, 710, 60, false, monter8Image);
-var monter9 = new monter(288 ,10, 710, 60, 600, 20, 710, 60, false, monter9Image);
+var monter2 = new monter(270 ,390, 710, 260, 600, 20, 260, 70, false, monter2Image);
+var monter3 = new monter(270 ,390, 710, 260, 600, 150, 500, 70, false, monter3Image);
+var monter4 = new monter(270 ,390, 710, 260, 600, 220, 390, 70, false, monter4Image);
+var monter5 = new monter(670 ,360, 710, 60, 500, 220, 670, 360, false, monter5Image);
+var monter6 = new monter(288 ,10, 710, 260, 600, 320, 270, 360, false, monter6Image);
+var monter7 = new monter(288 ,10, 710, 260, 600, 320, 510, 60, false, monter7Image);
+var monter8 = new monter(288 ,10, 710, 60, 600, 150, 410, 60, false, monter8Image);
+var monter9 = new monter(288 ,10, 710, 60, 600, 20, 310, 60, false, monter9Image);
 /* Create array save 9 monter */
 var monters = [monter1, monter2, monter3, monter4, monter5, monter6, monter7, monter8, monter9];
 /* Create requestAnimationFrames for browers */
