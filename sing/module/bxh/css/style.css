@@ -1,0 +1,256 @@
+body {
+	width: 1340px;
+	height: auto;
+	margin:0 auto;
+	font-family: "MS Reference Sans Serif";
+}
+.container {
+	width: 1340px;
+	min-height: 1000px;
+	position: absolute;
+}
+.left {
+	width: 18%;
+	height: 605px;
+	background-image: url('../img/menu.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.logo {
+	width: 100%;
+	height: 150px;
+	color: red;
+}
+.logo img {
+	width: 65px;
+	height: auto;
+	padding: 20px 0 0 30px;
+}
+.logo span {
+	position: relative;
+	font-size: 30px;
+	color: white;
+}
+.logo a {
+	text-decoration: none;
+}
+.menu {
+	width: 100%;
+	height: auto;
+}
+.menu ul {
+	width: 200px;
+    height: 100%;
+    list-style: none;
+    line-height: 40px;
+    padding-top: 22px;
+}
+.menu ul li {
+	padding-top: 1px;
+}
+.menu ul li a {
+    padding-left: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "MS Reference Sans Serif";
+    color: #c1c1c1;
+}
+.menu ul li a:hover {
+    color: white;
+}
+.sign-up {
+	width: 151px;
+	height: 65px;
+	margin: 100px auto;
+	background-image: url('../img/sign.jpg');
+}
+.sign-up:hover {
+	width: 151px;
+	height: 65px;
+	margin: 100px auto;
+	background-image: url('../img/sign1.jpg');
+}
+.right {
+	width: 80%;
+	height: auto;
+	float: right;
+	border-bottom: 3px solid #f1f1f1;
+}
+.header {
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/music-header-bg.jpg');
+}
+input {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 220px;
+    border: none;
+    background-color: #544140;
+    position: relative;
+    left: 395px;
+    top: 35px;
+ }
+.slider {
+	width: 100%;
+	height: 40px;
+	background-image: url('../img/slider.jpg');
+}
+.content {
+    width: 100%;
+    height: 70%;
+}
+.content-left {
+	width: 35%;
+	height: auto;
+	float: left;
+}
+.box2 {
+	width: 100%;
+	min-height: 50px;
+	border: 1px solid #c1c1c1;
+	float: left;
+}
+.box2 p {
+	padding-left: 10px;
+}
+.header-bxh {
+	width: 100%;
+	height: 50px;
+	padding-left: 50px;
+	padding-top:20px;
+}
+.header-bxh a {
+	text-decoration: none;
+	font-size: 25px;
+}
+.header-bxh a:hover {
+	color: blue;
+}
+.content-bxh {
+	width: 100%;
+	height: auto;
+}
+#first {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #f2f2f2;
+}
+#first img {
+	width: 100%;
+	height: auto;
+}
+#next {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.stt-1 {
+	position: relative;
+	font-size: 50px;
+    top: -100px;
+    left: 15px;
+    color: white;
+}
+.stt-2 {
+	position: relative;
+	font-size: 25px;
+    top: -100px;
+    left: 35px;
+    color: white;
+}
+.stt {
+	font-size: 45px;
+	padding: 1px 0 0 20px;
+	position: relative;
+	top: 50px;
+}
+.stt-3 {
+	font-size: 20px;
+	padding: 1px 0 0 20px;
+	position: relative;
+	top: 50px;
+}
+.content-right {
+	width: 35%;
+	min-height: 600px;
+	float: left;
+	border: 1px solid #c1c1c1;
+}
+.album {
+	width: 100%;
+	height: auto;
+	border-top: 2px solid #f1f1f1;
+}
+.list-album {
+	width: 100%;
+	height: auto;
+}
+#album {
+	width: 100%;
+	height: 180px;
+	float: left;
+}
+#album img {
+	width: 150px;
+	height: auto;
+	margin: 0 110px;
+}
+#album a {
+	text-decoration: none;
+}
+#album a p:hover {
+	color: #800080;
+}
+.text {
+	color: black;
+	font-size: 20px;
+	font-family: "Calibri";
+	margin: 0 auto;
+	text-align: center;
+}
+.more {
+	width: 100%;
+	height: auto;
+	margin-top:20px;
+	padding: 5px 0 30px 0;
+	
+}
+.more a {
+	font-size: 15px;
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.more a:hover {
+	border: 1px solid #800080;
+	border-radius: 10px;
+	background-color: #d4d4db;
+}
+.PR {
+	width: 25%;
+	height: auto;
+	border: 1px solid #800080;
+	float: left;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}
+.footer {
+	width: 100%;
+	height: 120px;
+	background-image: url('../img/footer1.jpg');
+	margin-top: 20px;
+
+}
+.list {
+	width: 100%;
+	height: 46px;
+	background-image: url('../img/list.jpg');
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
